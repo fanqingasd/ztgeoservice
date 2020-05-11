@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zt.ztgeoservice.alarm.dao.AlarmDao">
+    <resultMap id="BaseResultMap" type="com.zt.ztgeoservice.alarm.entity.Alarm">
+        <id column="id" property="id"></id>
+        <result column="al_time" property="alTime"></result>
+        <result column="al_place" property="alPlace"></result>
+        <result column="al_content" property="alContent"></result>
+        <result column="al_type" property="alType"></result>
+        <result column="al_status" property="alStatus"></result>
+        <result column="al_dealresult" property="alDealresult"></result>
+    </resultMap>
+    <sql id="selectFields">
+         id,
+         "al_time",
+         al_place,
+         al_content,
+         al_type,
+         al_status,
+         al_dealresult
+    </sql>
+    <select id="queryAlarm" resultMap="BaseResultMap">
+       SELECT
+        <include refid="selectFields"/>
+        FROM
+       zts_alarm order by id asc
+    </select>
+</mapper>

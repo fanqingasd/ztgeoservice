@@ -1,0 +1,840 @@
+2020-05-11 12:03:26.780 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 12236 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 12:03:26.786 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 12:03:27.936 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 12:03:27.938 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 12:03:27.985 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 12:03:28.918 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 12:03:28.936 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 12:03:28.937 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 12:03:28.937 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 12:03:29.099 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 12:03:29.099 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2224 ms
+2020-05-11 12:03:30.168 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 12:03:30.180 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 12:08:51.868 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 1912 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 12:08:51.872 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 12:08:52.579 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 12:08:52.581 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 12:08:52.617 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-05-11 12:08:53.095 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 12:08:53.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 12:08:53.103 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 12:08:53.104 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 12:08:53.221 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 12:08:53.221 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1297 ms
+2020-05-11 12:08:53.596 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 12:08:53.606 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 12:09:19.696 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 14880 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 12:09:19.700 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 12:09:20.347 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 12:09:20.350 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 12:09:20.386 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 12:09:20.861 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 12:09:20.869 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 12:09:20.869 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 12:09:20.870 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 12:09:20.988 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 12:09:20.989 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1234 ms
+2020-05-11 12:09:21.587 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 12:09:21.596 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 12:14:21.188 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 11896 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 12:14:21.191 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 12:14:21.799 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 12:14:21.801 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 12:14:21.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 12:14:22.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 12:14:22.323 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 12:14:22.324 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 12:14:22.325 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 12:14:22.447 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 12:14:22.447 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1217 ms
+2020-05-11 12:14:23.049 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 12:14:23.059 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 13:35:58.300 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 8972 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 13:35:58.309 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 13:35:58.923 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 13:35:58.925 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 13:35:58.962 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-05-11 13:35:59.442 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:35:59.451 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:35:59.452 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 13:35:59.453 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 13:35:59.589 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 13:35:59.590 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1246 ms
+2020-05-11 13:36:00.206 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 13:36:00.216 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 13:44:04.188 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 10088 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 13:44:04.191 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 13:44:04.868 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 13:44:04.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 13:44:04.906 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 13:44:05.353 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:44:05.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:44:05.361 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 13:44:05.361 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 13:44:05.486 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 13:44:05.486 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1180 ms
+2020-05-11 13:44:06.088 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 13:44:06.097 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 13:52:43.470 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 6192 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 13:52:43.474 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 13:52:44.083 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 13:52:44.085 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 13:52:44.121 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-05-11 13:52:44.591 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:52:44.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:52:44.599 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 13:52:44.599 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 13:52:44.711 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 13:52:44.711 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1197 ms
+2020-05-11 13:52:45.300 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-11 13:52:45.309 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-11 13:53:08.339 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 12244 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 13:53:08.342 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 13:53:08.939 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 13:53:08.941 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 13:53:08.977 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 13:53:09.425 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:53:09.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:53:09.434 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 13:53:09.434 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 13:53:09.552 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 13:53:09.552 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1171 ms
+2020-05-11 13:53:10.373 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:53:10.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:53:10.860 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 13:53:10.863 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.218 seconds (JVM running for 4.48)
+2020-05-11 13:53:35.153 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 13:53:35.154 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 13:53:35.158 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 13:53:35.283 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 13:53:35.543 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 13:54:49.098 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 7260 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 13:54:49.101 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 13:54:49.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 13:54:49.685 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 13:54:49.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-05-11 13:54:50.197 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:54:50.205 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:54:50.206 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 13:54:50.206 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 13:54:50.340 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 13:54:50.340 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1200 ms
+2020-05-11 13:54:51.068 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:54:51.374 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:54:51.394 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 13:54:51.396 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.045 seconds (JVM running for 4.318)
+2020-05-11 13:54:56.508 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 13:54:56.508 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 13:54:56.513 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 13:55:11.719 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 7792 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 13:55:11.722 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 13:55:12.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 13:55:12.437 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 13:55:12.475 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 13:55:12.928 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:55:12.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:55:12.938 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 13:55:12.938 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 13:55:13.055 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 13:55:13.055 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1254 ms
+2020-05-11 13:55:13.794 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:55:14.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:55:14.139 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 13:55:14.141 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.039 seconds (JVM running for 4.27)
+2020-05-11 13:55:18.750 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 13:55:18.750 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 13:55:18.756 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 13:58:59.200 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 11884 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 13:58:59.203 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 13:58:59.808 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 13:58:59.810 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 13:58:59.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 13:59:00.346 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 13:59:00.353 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:59:00.354 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 13:59:00.354 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 13:59:00.472 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 13:59:00.473 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1231 ms
+2020-05-11 13:59:01.215 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 13:59:01.543 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 13:59:01.565 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 13:59:01.568 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.07 seconds (JVM running for 4.347)
+2020-05-11 13:59:13.046 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 13:59:13.047 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 13:59:13.053 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 14:02:05.181 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 11528 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:02:05.184 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:02:05.791 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:02:05.794 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:02:05.833 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 14:02:06.290 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:02:06.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:02:06.299 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:02:06.299 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:02:06.429 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:02:06.430 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1207 ms
+2020-05-11 14:02:07.225 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:02:07.533 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:02:07.555 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:02:07.557 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.139 seconds (JVM running for 4.423)
+2020-05-11 14:02:10.644 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:02:10.644 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:02:10.649 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 14:05:18.351 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 10704 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:05:18.354 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:05:18.954 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:05:18.956 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:05:18.991 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-05-11 14:05:19.434 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:05:19.442 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:05:19.442 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:05:19.442 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:05:19.557 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:05:19.557 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1167 ms
+2020-05-11 14:05:20.292 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:05:20.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:05:20.622 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:05:20.624 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 2.97 seconds (JVM running for 4.2)
+2020-05-11 14:05:23.851 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:05:23.851 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:05:23.856 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 14:06:28.640 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 7924 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:06:28.643 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:06:29.310 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:06:29.312 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:06:29.350 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 14:06:29.817 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:06:29.825 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:06:29.825 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:06:29.826 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:06:29.950 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:06:29.950 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1262 ms
+2020-05-11 14:06:30.691 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:06:31.005 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:06:31.026 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:06:31.028 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.14 seconds (JVM running for 4.726)
+2020-05-11 14:06:33.477 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:06:33.477 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:06:33.482 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 14:06:33.529 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:06:33.674 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:08:16.038 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 8996 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:08:16.045 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:08:16.724 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:08:16.726 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:08:16.763 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-05-11 14:08:17.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:08:17.230 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:08:17.231 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:08:17.231 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:08:17.361 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:08:17.361 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1206 ms
+2020-05-11 14:08:18.124 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:08:18.454 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:08:18.475 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:08:18.478 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.064 seconds (JVM running for 4.339)
+2020-05-11 14:08:21.155 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:08:21.155 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:08:21.160 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 14:08:21.208 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:08:21.351 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:09:19.492 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 14156 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:09:19.497 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:09:20.081 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:09:20.083 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:09:20.118 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 14:09:20.568 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:09:20.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:09:20.577 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:09:20.577 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:09:20.707 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:09:20.707 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1174 ms
+2020-05-11 14:09:21.426 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:09:21.734 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:09:21.754 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:09:21.757 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 2.964 seconds (JVM running for 4.217)
+2020-05-11 14:09:33.961 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:09:33.962 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:09:33.968 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 14:09:34.013 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:09:34.154 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:11:58.454 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 14228 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:11:58.458 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:11:59.064 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:11:59.066 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:11:59.103 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 14:11:59.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:11:59.588 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:11:59.588 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:11:59.589 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:11:59.709 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:11:59.709 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1211 ms
+2020-05-11 14:12:00.443 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:12:00.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:12:00.787 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:12:00.789 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.089 seconds (JVM running for 4.365)
+2020-05-11 14:12:06.441 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:12:06.442 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:12:06.446 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:12:20.554 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:12:20.692 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:14:52.289 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 6624 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:14:52.292 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:14:52.888 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:14:52.891 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:14:52.930 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 14:14:53.373 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:14:53.380 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:14:53.381 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:14:53.381 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:14:53.496 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:14:53.496 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1157 ms
+2020-05-11 14:14:54.208 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:14:54.503 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:14:54.524 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:14:54.526 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 2.984 seconds (JVM running for 4.313)
+2020-05-11 14:14:59.108 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:14:59.108 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:14:59.112 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:15:05.564 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:15:05.707 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:18:35.586 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 10248 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:18:35.589 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:18:36.232 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:18:36.235 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:18:36.275 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-05-11 14:18:36.755 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:18:36.763 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:18:36.763 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:18:36.764 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:18:36.898 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:18:36.898 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1271 ms
+2020-05-11 14:18:37.658 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:18:37.975 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:18:37.997 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:18:37.999 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.199 seconds (JVM running for 4.49)
+2020-05-11 14:18:42.978 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:18:42.978 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:18:42.983 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 14:18:43.030 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:18:43.171 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:24:54.242 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 12384 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:24:54.245 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:24:54.845 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:24:54.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:24:54.886 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 14:24:55.345 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:24:55.353 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:24:55.354 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:24:55.354 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:24:55.491 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:24:55.491 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1207 ms
+2020-05-11 14:24:56.241 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:24:56.546 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:24:56.565 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:24:56.568 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.041 seconds (JVM running for 4.286)
+2020-05-11 14:24:59.085 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:24:59.086 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:24:59.090 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:24:59.137 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:24:59.278 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:25:18.772 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 15820 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:25:18.775 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:25:19.374 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:25:19.377 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:25:19.413 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-05-11 14:25:19.861 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:25:19.869 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:25:19.869 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:25:19.869 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:25:19.985 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:25:19.985 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1175 ms
+2020-05-11 14:25:20.707 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:25:21.027 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:25:21.048 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:25:21.051 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 2.969 seconds (JVM running for 4.212)
+2020-05-11 14:25:23.527 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:25:23.527 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:25:23.532 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:25:23.582 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:25:23.726 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:25:46.750 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 5388 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:25:46.753 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:25:47.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:25:47.347 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:25:47.383 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 14:25:47.840 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:25:47.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:25:47.848 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:25:47.849 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:25:47.964 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:25:47.965 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1167 ms
+2020-05-11 14:25:48.693 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:25:49.001 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:25:49.022 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:25:49.025 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 2.935 seconds (JVM running for 4.224)
+2020-05-11 14:25:53.006 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:25:53.006 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:25:53.011 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 14:25:53.058 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:25:53.196 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:28:49.743 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 1272 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:28:49.748 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:28:50.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:28:50.451 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:28:50.490 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 14:28:50.996 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:28:51.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:28:51.004 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:28:51.005 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:28:51.117 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:28:51.117 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1306 ms
+2020-05-11 14:28:51.855 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:28:52.153 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:28:52.175 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:28:52.177 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.262 seconds (JVM running for 4.552)
+2020-05-11 14:28:54.893 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:28:54.893 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:28:54.897 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:29:35.074 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 6760 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:29:35.076 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:29:35.661 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:29:35.663 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:29:35.702 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 14:29:36.156 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:29:36.166 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:29:36.166 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:29:36.167 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:29:36.288 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:29:36.288 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1173 ms
+2020-05-11 14:29:37.037 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:29:37.357 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:29:37.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:29:37.381 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.054 seconds (JVM running for 4.334)
+2020-05-11 14:29:39.611 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:29:39.612 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:29:39.616 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:29:39.664 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:29:39.807 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:30:39.440 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 15652 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:30:39.443 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:30:40.068 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:30:40.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:30:40.111 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 14:30:40.560 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:30:40.569 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:30:40.570 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:30:40.570 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:30:40.733 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:30:40.733 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1212 ms
+2020-05-11 14:30:41.454 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:30:41.741 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:30:41.761 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:30:41.763 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 2.971 seconds (JVM running for 4.227)
+2020-05-11 14:30:45.093 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:30:45.093 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:30:45.098 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 14:30:45.147 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:30:45.299 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:53:33.607 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 9488 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:53:33.610 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:53:34.248 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:53:34.251 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:53:34.290 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-05-11 14:53:34.747 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:53:34.754 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:53:34.755 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:53:34.755 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:53:34.883 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:53:34.883 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1227 ms
+2020-05-11 14:53:35.670 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:53:36.014 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:53:36.038 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:53:36.041 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.341 seconds (JVM running for 4.61)
+2020-05-11 14:53:37.692 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:53:37.692 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:53:37.696 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:53:37.744 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:53:37.883 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:55:32.390 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 13516 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:55:32.394 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:55:33.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:55:33.043 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:55:33.080 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-05-11 14:55:33.544 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:55:33.552 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:55:33.553 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:55:33.553 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:55:33.759 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:55:33.759 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1310 ms
+2020-05-11 14:55:34.515 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:55:34.841 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:55:34.863 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:55:34.866 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.174 seconds (JVM running for 4.456)
+2020-05-11 14:55:37.898 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:55:37.898 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:55:37.904 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 14:55:37.950 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:55:38.094 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 14:58:35.378 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 13460 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 14:58:35.381 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 14:58:35.971 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 14:58:35.974 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 14:58:36.014 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 14:58:36.468 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 14:58:36.476 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:58:36.476 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 14:58:36.476 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 14:58:36.610 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 14:58:36.610 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1190 ms
+2020-05-11 14:58:37.332 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 14:58:37.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 14:58:37.653 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 14:58:37.655 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.003 seconds (JVM running for 4.254)
+2020-05-11 14:58:42.281 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 14:58:42.281 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 14:58:42.286 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 14:58:42.334 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 14:58:42.476 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 15:00:00.274 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 11200 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 15:00:00.277 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 15:00:00.928 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 15:00:00.931 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 15:00:00.969 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-05-11 15:00:01.441 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 15:00:01.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:00:01.449 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 15:00:01.449 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 15:00:01.580 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 15:00:01.580 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1264 ms
+2020-05-11 15:00:02.344 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 15:00:02.679 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:00:02.702 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 15:00:02.705 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.151 seconds (JVM running for 4.422)
+2020-05-11 15:00:07.666 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 15:00:07.666 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 15:00:07.672 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 15:00:07.719 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 15:00:07.860 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 15:00:38.871 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 4572 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 15:00:38.875 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 15:00:39.505 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 15:00:39.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 15:00:39.544 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 15:00:40.023 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 15:00:40.031 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:00:40.031 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 15:00:40.031 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 15:00:40.151 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 15:00:40.151 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1205 ms
+2020-05-11 15:00:40.905 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 15:00:41.210 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:00:41.230 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 15:00:41.232 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.023 seconds (JVM running for 4.288)
+2020-05-11 15:00:44.346 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 15:00:44.347 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 15:00:44.351 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 15:00:44.399 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 15:00:44.538 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 15:03:47.994 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 12020 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 15:03:47.997 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 15:03:48.784 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 15:03:48.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 15:03:48.822 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-05-11 15:03:49.278 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 15:03:49.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:03:49.287 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 15:03:49.287 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 15:03:49.405 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 15:03:49.405 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1352 ms
+2020-05-11 15:03:50.134 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 15:03:50.451 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:03:50.473 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 15:03:50.475 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.156 seconds (JVM running for 4.418)
+2020-05-11 15:04:30.726 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 15:04:30.726 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 15:04:30.731 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 15:09:56.903 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 15:09:57.038 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 15:16:42.650 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 16232 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 15:16:42.653 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 15:16:43.257 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 15:16:43.259 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 15:16:43.298 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-05-11 15:16:43.760 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 15:16:43.767 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:16:43.768 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 15:16:43.768 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 15:16:43.888 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 15:16:43.888 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1198 ms
+2020-05-11 15:16:44.623 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 15:16:44.923 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:16:44.943 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 15:16:44.945 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.004 seconds (JVM running for 4.271)
+2020-05-11 15:16:49.431 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 15:16:49.432 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 15:16:49.437 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-11 15:16:49.484 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 15:16:49.626 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 15:18:32.796 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 12976 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 15:18:32.864 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 15:18:33.528 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 15:18:33.531 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 15:18:33.570 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 15:18:34.033 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 15:18:34.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:18:34.042 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 15:18:34.042 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 15:18:34.167 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 15:18:34.167 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1243 ms
+2020-05-11 15:18:34.886 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 15:18:34.947 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 15:18:35.184 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 15:18:35.205 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 15:18:35.207 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 2.991 seconds (JVM running for 4.328)
+2020-05-11 15:18:50.650 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 15:18:50.651 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 15:18:50.657 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 15:18:50.707 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 15:18:50.845 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 16:37:19.642 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 10316 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 16:37:19.649 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 16:37:20.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 16:37:20.415 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 16:37:20.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 16:37:21.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 16:37:21.196 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 16:37:21.197 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 16:37:21.197 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 16:37:21.336 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 16:37:21.336 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1632 ms
+2020-05-11 16:37:22.275 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 16:37:22.345 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 16:37:22.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 16:37:22.662 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 16:37:22.665 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.714 seconds (JVM running for 6.661)
+2020-05-11 16:37:27.247 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 16:37:27.248 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 16:37:27.253 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 16:37:59.052 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 16:37:59.446 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 16:39:36.095 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 13384 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 16:39:36.098 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 16:39:36.836 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 16:39:36.838 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 16:39:36.880 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 16:39:37.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 16:39:37.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 16:39:37.521 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 16:39:37.521 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 16:39:37.659 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 16:39:37.659 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1497 ms
+2020-05-11 16:39:38.615 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 16:39:38.684 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 16:39:38.995 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 16:39:39.023 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 16:39:39.027 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.96 seconds (JVM running for 5.442)
+2020-05-11 16:39:52.223 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 16:39:52.223 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 16:39:52.230 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-11 16:39:58.803 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 16:39:58.972 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:03:33.983 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 8056 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:03:33.987 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:03:34.664 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:03:34.667 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:03:34.708 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 17:03:35.268 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:03:35.277 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:03:35.278 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:03:35.278 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:03:35.404 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:03:35.406 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1380 ms
+2020-05-11 17:03:36.275 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:03:36.369 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:03:36.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:03:36.679 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:03:36.683 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.485 seconds (JVM running for 5.301)
+2020-05-11 17:03:57.430 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:03:57.431 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:03:57.436 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-11 17:04:03.609 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:04:03.772 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:10:53.449 [http-nio-8080-exec-10] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:10:53.458 [http-nio-8080-exec-10] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:17:19.683 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 14360 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:17:19.687 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:17:20.457 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:17:20.460 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:17:20.504 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-05-11 17:17:21.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:17:21.143 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:17:21.144 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:17:21.144 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:17:21.274 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:17:21.274 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1527 ms
+2020-05-11 17:17:22.194 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:17:22.270 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:17:22.625 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:17:22.652 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:17:22.656 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.805 seconds (JVM running for 5.311)
+2020-05-11 17:17:31.856 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:17:31.856 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:17:31.863 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 17:17:37.908 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:17:38.086 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:17:38.248 [http-nio-8080-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:17:38.251 [http-nio-8080-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:22:20.542 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 6304 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:22:20.546 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:22:21.331 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:22:21.334 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:22:21.377 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 17:22:21.987 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:22:21.997 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:22:21.998 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:22:21.998 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:22:22.142 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:22:22.143 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1496 ms
+2020-05-11 17:22:23.021 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:22:23.093 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:22:23.383 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:22:23.428 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:22:23.431 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.682 seconds (JVM running for 5.205)
+2020-05-11 17:22:43.974 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:22:43.975 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:22:43.982 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-11 17:22:48.203 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:22:48.364 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:22:48.526 [http-nio-8080-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:22:48.530 [http-nio-8080-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:27:18.183 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 12096 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:27:18.187 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:27:18.944 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:27:18.947 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:27:18.989 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-05-11 17:27:19.566 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:27:19.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:27:19.577 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:27:19.578 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:27:19.714 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:27:19.715 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1478 ms
+2020-05-11 17:27:20.624 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:27:20.691 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:27:21.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:27:21.029 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:27:21.033 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.775 seconds (JVM running for 5.234)
+2020-05-11 17:27:24.902 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:27:24.903 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:27:24.909 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 17:27:24.972 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:27:25.136 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:27:25.292 [http-nio-8080-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:27:25.294 [http-nio-8080-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:28:32.627 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 1248 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:28:32.631 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:28:33.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:28:33.348 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:28:33.393 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-05-11 17:28:33.971 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:28:33.981 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:28:33.982 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:28:33.982 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:28:34.112 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:28:34.112 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1440 ms
+2020-05-11 17:28:35.005 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:28:35.074 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:28:35.367 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:28:35.395 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:28:35.398 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.641 seconds (JVM running for 5.171)
+2020-05-11 17:28:38.969 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:28:38.969 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:28:38.976 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-11 17:28:39.043 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:28:39.205 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:28:39.368 [http-nio-8080-exec-3] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:28:39.370 [http-nio-8080-exec-3] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:28:58.169 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 15524 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:28:58.176 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:28:58.927 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:28:58.930 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:28:58.973 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-05-11 17:28:59.564 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:28:59.574 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:28:59.575 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:28:59.576 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:28:59.746 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:28:59.746 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1489 ms
+2020-05-11 17:29:00.739 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:29:00.812 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:29:01.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:29:01.135 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:29:01.138 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 4.328 seconds (JVM running for 6.082)
+2020-05-11 17:29:03.161 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:29:03.161 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:29:03.170 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-11 17:29:03.234 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:29:03.406 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:29:03.586 [http-nio-8080-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:29:03.588 [http-nio-8080-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:32:43.440 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 6944 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:32:43.444 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:32:44.197 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:32:44.202 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:32:44.245 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-05-11 17:32:44.863 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:32:44.874 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:32:44.875 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:32:44.875 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:32:45.009 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:32:45.009 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1517 ms
+2020-05-11 17:32:45.969 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:32:46.046 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:32:46.349 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:32:46.376 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:32:46.379 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.843 seconds (JVM running for 5.335)
+2020-05-11 17:32:53.645 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:32:53.645 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:32:53.652 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-11 17:32:53.717 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:32:53.877 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-11 17:32:54.040 [http-nio-8080-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:32:54.042 [http-nio-8080-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:41:45.559 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Starting ZtgeoserviceApplication on DESKTOP-11HLK7N with PID 9272 (F:\work\ztgeoservice\target\classes started by zt01 in F:\work\ztgeoservice)
+2020-05-11 17:41:45.563 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - No active profile set, falling back to default profiles: default
+2020-05-11 17:41:46.292 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-11 17:41:46.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-11 17:41:46.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-05-11 17:41:46.943 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-11 17:41:46.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:41:46.954 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-11 17:41:46.955 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 17:41:47.104 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 17:41:47.104 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1491 ms
+2020-05-11 17:41:48.055 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 17:41:48.130 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-05-11 17:41:48.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 17:41:48.452 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 17:41:48.456 [main] INFO  com.zt.ztgeoservice.ZtgeoserviceApplication - Started ZtgeoserviceApplication in 3.767 seconds (JVM running for 5.228)
+2020-05-11 17:42:25.589 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-11 17:42:25.589 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-11 17:42:25.595 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-11 17:42:27.981 [http-nio-8080-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-05-11 17:42:27.984 [http-nio-8080-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-05-11 17:43:26.406 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-11 17:43:26.561 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

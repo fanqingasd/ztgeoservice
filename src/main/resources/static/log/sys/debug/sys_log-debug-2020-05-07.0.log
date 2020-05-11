@@ -1,0 +1,207 @@
+2020-05-07 17:04:16.988 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 17:04:21.326 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment 
+2020-05-07 17:04:21.335 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:04:21.357 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 1
+2020-05-07 17:04:21.941 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment 
+2020-05-07 17:04:21.942 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:04:21.944 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 1
+2020-05-07 17:11:33.754 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 17:11:41.157 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:11:41.166 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:11:41.190 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 1
+2020-05-07 17:13:56.794 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:13:56.794 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:13:56.798 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:42.959 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:42.960 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:42.961 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:43.422 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:43.422 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:43.425 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:43.630 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:43.630 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:43.633 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:43.859 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:43.860 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:43.862 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:44.068 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:44.069 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:44.071 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:44.285 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:44.285 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:44.288 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:44.509 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:44.509 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:44.510 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:44.876 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:44.876 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:44.877 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:45.292 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:45.292 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:45.293 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:45.677 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:45.678 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:45.679 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:46.108 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:46.108 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:46.110 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:46.476 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:46.477 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:46.478 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:14:59.450 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:14:59.450 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:14:59.452 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:16:21.368 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:16:21.369 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:16:21.371 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:17:33.623 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:17:33.624 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:17:33.625 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:18:09.547 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:18:09.547 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:18:09.548 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:18:58.388 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:18:58.388 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:18:58.389 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:19:52.748 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:19:52.748 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:19:52.749 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:20:10.581 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:20:10.581 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:20:10.582 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:54:54.906 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 17:55:14.196 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 17:55:28.112 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 17:55:28.121 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:55:28.134 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:55:28.136 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /*limit 5 offset 0*/ 
+2020-05-07 17:55:28.136 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:55:28.146 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-07 17:56:09.016 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 17:56:14.873 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment LIMIT 5 OFFSET 0 
+2020-05-07 17:56:14.883 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:56:14.897 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:56:14.898 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:56:14.898 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:56:14.909 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:56:16.565 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment LIMIT 5 OFFSET 0 
+2020-05-07 17:56:16.566 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:56:16.567 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:56:16.568 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:56:16.568 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:56:16.572 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:56:17.298 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment LIMIT 5 OFFSET 0 
+2020-05-07 17:56:17.299 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:56:17.299 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:56:17.300 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:56:17.300 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:56:17.302 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:56:17.909 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment LIMIT 5 OFFSET 0 
+2020-05-07 17:56:17.909 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:56:17.910 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:56:17.910 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:56:17.910 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:56:17.912 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:56:30.443 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment LIMIT 5 OFFSET 0 
+2020-05-07 17:56:30.443 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:56:30.444 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:56:30.444 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:56:30.444 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:56:30.445 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:57:46.938 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment LIMIT 5 OFFSET 0 
+2020-05-07 17:57:46.938 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:57:46.939 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:57:46.939 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment limit 5 offset 0 
+2020-05-07 17:57:46.939 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:57:46.941 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 17:58:35.481 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 17:58:49.025 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 17:58:49.037 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 17:58:49.049 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 17:58:49.051 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ 
+2020-05-07 17:58:49.052 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-07 17:58:49.061 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-07 18:03:40.474 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 18:03:51.345 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:03:51.356 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:03:51.370 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:03:51.372 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:03:51.373 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:03:51.382 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:10:51.824 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:10:51.824 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:10:51.826 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:10:51.827 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:10:51.827 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:10:51.830 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:10:52.562 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:10:52.562 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:10:52.563 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:10:52.564 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:10:52.564 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:10:52.565 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:10:53.393 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:10:53.394 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:10:53.395 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:10:53.395 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:10:53.396 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:10:53.398 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:10:54.058 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:10:54.059 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:10:54.059 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:10:54.060 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:10:54.060 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:10:54.061 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:10:55.009 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:10:55.010 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:10:55.010 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:10:55.011 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:10:55.011 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:10:55.013 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:10:55.729 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:10:55.729 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:10:55.730 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:10:55.730 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:10:55.731 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:10:55.732 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:12:27.504 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 18:12:36.158 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:12:36.169 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:12:36.181 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:12:36.185 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:12:36.186 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:12:36.195 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:13:51.129 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 18:14:11.772 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment 
+2020-05-07 18:14:11.782 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:14:11.794 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:14:11.798 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ LIMIT ? 
+2020-05-07 18:14:11.799 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:14:11.809 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:17:13.435 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 18:17:31.755 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 18:17:38.854 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment WHERE 1 = 1 
+2020-05-07 18:17:38.863 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:17:38.876 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:17:38.878 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by equipment.id desc LIMIT ? 
+2020-05-07 18:17:38.879 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:17:38.890 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:18:04.565 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 18:18:10.282 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment WHERE 1 = 1 
+2020-05-07 18:18:10.293 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:18:10.308 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:18:10.311 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by equipment.id asc LIMIT ? 
+2020-05-07 18:18:10.312 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:18:10.324 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:27:34.248 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment WHERE 1 = 1 
+2020-05-07 18:27:34.248 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:27:34.251 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:27:34.253 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by equipment.id asc LIMIT ? 
+2020-05-07 18:27:34.253 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:27:34.256 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-07 18:27:34.704 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM equipment WHERE 1 = 1 
+2020-05-07 18:27:34.704 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-07 18:27:34.705 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-07 18:27:34.706 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM equipment /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by equipment.id asc LIMIT ? 
+2020-05-07 18:27:34.706 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-07 18:27:34.708 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5

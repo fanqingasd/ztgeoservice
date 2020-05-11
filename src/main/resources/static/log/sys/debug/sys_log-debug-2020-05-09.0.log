@@ -1,0 +1,783 @@
+2020-05-09 09:10:53.768 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 09:11:24.194 [http-nio-8080-exec-1] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - ==>  Preparing: SELECT count(0) FROM zts_areas 
+2020-05-09 09:11:24.204 [http-nio-8080-exec-1] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - ==> Parameters: 
+2020-05-09 09:11:24.217 [http-nio-8080-exec-1] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - <==      Total: 1
+2020-05-09 09:11:24.220 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - ==>  Preparing: SELECT id, ar_name, ar_state, ar_type, "ar_updateTime", "ar_creationTime", ar_position FROM zts_areas order by id asc LIMIT ? 
+2020-05-09 09:11:24.222 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - ==> Parameters: 5(Integer)
+2020-05-09 09:11:24.225 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - <==      Total: 5
+2020-05-09 09:11:38.113 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 09:11:38.113 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 09:11:38.115 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 09:11:38.116 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 09:11:38.116 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 09:11:38.117 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 09:11:38.118 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 09:11:38.118 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 09:11:38.121 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 09:11:38.121 [http-nio-8080-exec-3] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 09:11:38.122 [http-nio-8080-exec-3] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 09:11:38.124 [http-nio-8080-exec-3] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 09:38:40.998 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 09:38:46.296 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 09:38:46.305 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 09:38:46.318 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 09:38:46.326 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 09:38:46.326 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 09:38:46.328 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 09:38:46.328 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 09:38:46.329 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 09:38:46.330 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 09:38:46.331 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 09:38:46.331 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 09:38:46.333 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 09:38:46.333 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 09:38:46.333 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 09:38:46.335 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 09:38:46.336 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 09:38:46.337 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 09:38:46.340 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 09:39:35.303 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 09:40:11.311 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 09:40:11.583 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 09:40:11.767 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 09:40:15.877 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 09:40:15.879 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 09:40:15.882 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 09:40:16.940 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 09:40:16.942 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 09:40:16.945 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 09:40:18.291 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 09:40:18.293 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 09:40:18.297 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 09:40:19.452 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 09:40:19.455 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 09:40:19.459 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 09:48:22.114 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 09:48:22.114 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 09:48:22.116 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 09:53:53.623 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 09:53:59.862 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 09:53:59.872 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 09:53:59.884 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 09:56:26.441 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 09:56:35.231 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 09:56:35.242 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 09:56:35.258 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 09:56:35.264 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 09:56:35.265 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 09:56:35.266 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 09:56:35.266 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 09:56:35.266 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 09:56:35.268 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 09:56:35.268 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 09:56:35.269 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 09:56:35.270 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 09:56:35.271 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 09:56:35.271 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 09:56:35.273 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 09:56:35.273 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 09:56:35.274 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 09:56:35.275 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 09:57:20.715 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 09:57:20.716 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 09:57:20.718 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 09:57:20.719 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 09:57:20.720 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 09:57:20.723 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 09:57:20.724 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 09:57:20.724 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 09:57:20.725 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 09:57:20.726 [http-nio-8080-exec-3] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 09:57:20.726 [http-nio-8080-exec-3] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 09:57:20.727 [http-nio-8080-exec-3] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 09:57:20.727 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 09:57:20.728 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 09:57:20.729 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 09:57:20.729 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 09:57:20.729 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 09:57:20.730 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 09:57:28.666 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 09:58:25.531 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 09:58:26.264 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 09:58:26.482 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 09:58:30.029 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 09:58:30.031 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 09:58:30.033 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 09:58:30.940 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 09:58:30.942 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 09:58:30.944 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 09:58:32.020 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 09:58:32.022 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 09:58:32.025 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 09:58:32.955 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 09:58:32.957 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 09:58:32.959 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 09:58:33.781 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 09:58:33.781 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 09:58:33.783 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 10:00:15.483 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 10:00:20.791 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 10:00:20.800 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 10:00:20.814 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 10:00:20.820 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 10:00:20.820 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 10:00:20.822 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 10:00:20.823 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 10:00:20.823 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 10:00:20.824 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 10:00:20.825 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 10:00:20.825 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 10:00:20.826 [http-nio-8080-exec-2] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 10:00:20.826 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 10:00:20.826 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 10:00:20.827 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 10:00:20.828 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 10:00:20.829 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 10:00:20.830 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 10:00:22.396 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 10:00:22.397 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 10:00:22.398 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 10:00:22.399 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 10:00:22.399 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 10:00:22.401 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 10:00:22.401 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 10:00:22.401 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 10:00:22.402 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 10:00:22.403 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 10:00:22.403 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 10:00:22.404 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 10:00:22.404 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 10:00:22.405 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 10:00:22.406 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 10:00:22.406 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 10:00:22.407 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 10:00:22.408 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 10:01:20.680 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 10:01:20.680 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 10:01:20.681 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 10:01:20.685 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 10:01:20.686 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 10:01:20.696 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 10:01:28.587 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 10:01:28.588 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 10:01:28.589 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 10:01:28.589 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 10:01:28.591 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 10:01:28.594 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 10:01:42.134 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 10:01:42.134 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 10:01:42.135 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 10:01:42.136 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 10:01:42.136 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 10:01:42.138 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 10:46:39.309 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 10:46:39.310 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 10:46:39.314 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 10:46:39.315 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 10:46:39.316 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 10:46:39.317 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 10:46:39.318 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 10:46:39.318 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 10:46:39.319 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 10:46:39.320 [http-nio-8080-exec-8] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 10:46:39.320 [http-nio-8080-exec-8] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 10:46:39.321 [http-nio-8080-exec-8] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 10:46:39.322 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 10:46:39.322 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 10:46:39.323 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 10:46:39.324 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 10:46:39.324 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 10:46:39.327 [http-nio-8080-exec-8] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 10:46:50.421 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 10:46:50.421 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 10:46:50.423 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 10:46:50.423 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 10:46:50.423 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 10:46:50.435 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 10:47:30.777 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==>  Preparing: SELECT COUNT (0) FROM zts_people 
+2020-05-09 10:47:30.778 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - ==> Parameters: 
+2020-05-09 10:47:30.779 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countPeople - <==      Total: 1
+2020-05-09 10:47:30.780 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==>  Preparing: SELECT COUNT (0) FROM zts_houses 
+2020-05-09 10:47:30.780 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - ==> Parameters: 
+2020-05-09 10:47:30.780 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countHouses - <==      Total: 1
+2020-05-09 10:47:30.780 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==>  Preparing: SELECT COUNT (0) FROM zts_parking 
+2020-05-09 10:47:30.781 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - ==> Parameters: 
+2020-05-09 10:47:30.781 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.count.dao.CountDao.countParking - <==      Total: 1
+2020-05-09 10:47:30.782 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==>  Preparing: SELECT COUNT (0) FROM zts_parkingrecord 
+2020-05-09 10:47:30.782 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - ==> Parameters: 
+2020-05-09 10:47:30.782 [http-nio-8080-exec-1] DEBUG c.z.z.count.dao.CountDao.countParkingrecord - <==      Total: 1
+2020-05-09 10:47:30.783 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==>  Preparing: SELECT COUNT (0) FROM zts_camera 
+2020-05-09 10:47:30.783 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - ==> Parameters: 
+2020-05-09 10:47:30.783 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCamera - <==      Total: 1
+2020-05-09 10:47:30.783 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==>  Preparing: SELECT COUNT (0) FROM zts_alarm 
+2020-05-09 10:47:30.784 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - ==> Parameters: 
+2020-05-09 10:47:30.784 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countAlarm - <==      Total: 1
+2020-05-09 10:47:38.797 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 10:47:38.798 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 10:47:38.798 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 10:47:38.799 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 10:47:38.799 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 10:47:38.801 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:11:07.381 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:11:07.381 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:11:07.384 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:11:07.385 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:11:07.385 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:11:07.391 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:11:31.022 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:11:31.022 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:11:31.022 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:11:31.023 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:11:31.023 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:11:31.025 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:12:01.258 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:12:01.259 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:12:01.260 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:12:01.260 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:12:01.260 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:12:01.262 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:12:04.438 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:12:04.438 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:12:04.439 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:12:04.440 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:12:04.440 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:12:04.441 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:12:19.603 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:12:19.603 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:12:19.604 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:12:19.604 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:12:19.604 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:12:19.606 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:14:53.222 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:14:53.222 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:14:53.223 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:14:53.223 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:14:53.223 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:14:53.225 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:15:19.534 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:15:19.534 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:15:19.534 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:15:19.535 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:15:19.535 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:15:19.536 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:18:09.848 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:18:09.849 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:18:09.849 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:18:09.850 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:18:09.850 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:18:09.851 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:18:46.498 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:18:46.498 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:18:46.498 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:18:46.499 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:18:46.499 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:18:46.500 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:18:52.376 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:18:52.376 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:18:52.377 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:18:52.378 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:18:52.378 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:18:52.379 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:38.754 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:38.754 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:38.755 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:38.756 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:38.756 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:38.759 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:39.754 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:39.754 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:39.755 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:39.755 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:39.756 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:39.757 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:41.482 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:41.482 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:41.482 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:41.483 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:41.483 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:41.485 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:42.304 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:42.305 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:42.305 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:42.306 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:42.306 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:42.307 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:44.563 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:44.564 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:44.564 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:44.565 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:44.565 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:44.566 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:45.311 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:45.312 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:45.312 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:45.312 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:45.313 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:45.313 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:48.087 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:48.087 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:48.088 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:48.088 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:48.088 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:48.089 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:49.444 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:49.444 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:49.445 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:49.446 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:49.446 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:49.447 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:51.395 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:51.396 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:51.396 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:51.397 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:51.397 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:51.398 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:19:52.671 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:19:52.671 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:19:52.671 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:19:52.672 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:19:52.672 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:19:52.673 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:20:01.619 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:20:01.619 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:20:01.619 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:20:01.620 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:20:01.620 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:20:01.621 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:20:29.302 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:20:29.303 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:20:29.363 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:20:29.363 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:20:29.364 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:20:29.369 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:24:16.112 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:24:16.112 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:24:16.113 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:24:16.114 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:24:16.114 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:24:16.115 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:27:21.809 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:27:21.809 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:27:21.810 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:27:21.811 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:27:21.811 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:27:21.811 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:30:28.907 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:30:28.907 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:30:28.911 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:30:28.911 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:30:28.912 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:30:28.918 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:44:39.360 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:44:39.361 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:44:39.361 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:44:39.362 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:44:39.362 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:44:39.363 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:45:40.862 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:45:40.862 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:45:40.863 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:45:40.864 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:45:40.864 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:45:40.865 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:46:04.944 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:46:04.944 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:46:04.945 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:46:04.945 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:46:04.946 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:46:04.947 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:47:35.061 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:47:35.062 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:47:35.063 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:47:35.063 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:47:35.063 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:47:35.064 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:48:00.530 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:48:00.530 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:48:00.531 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:48:00.532 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:48:00.532 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:48:00.533 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:50:38.484 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:50:38.485 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:50:38.485 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:50:38.486 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:50:38.486 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:50:38.487 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:52:03.267 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 11:52:03.267 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 11:52:03.268 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 11:52:03.269 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 11:52:03.269 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 11:52:03.270 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 11:57:16.374 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 11:59:53.388 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 12:53:54.295 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 12:54:52.325 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 12:54:52.338 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 12:54:52.355 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 12:54:52.359 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 12:54:52.360 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 5(Integer)
+2020-05-09 12:54:52.372 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 5
+2020-05-09 12:55:15.812 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 12:55:23.325 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 12:55:23.337 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 12:55:23.352 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 12:55:23.354 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc 
+2020-05-09 12:55:23.354 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 
+2020-05-09 12:55:23.364 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 12:56:10.366 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 12:56:19.236 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 12:56:19.246 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 12:56:19.261 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 12:56:19.264 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 12:56:19.266 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 1(Integer)
+2020-05-09 12:56:19.275 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 1
+2020-05-09 12:56:28.172 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 12:56:28.172 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 12:56:28.174 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 12:56:28.174 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 12:56:28.174 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 1(Integer)
+2020-05-09 12:56:28.176 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 1
+2020-05-09 12:56:31.284 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 12:56:31.284 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 12:56:31.286 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 12:56:31.287 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 12:56:31.288 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 1(Integer)
+2020-05-09 12:56:31.289 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 1
+2020-05-09 12:56:40.394 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 12:56:40.395 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 12:56:40.395 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 12:56:40.396 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 12:56:40.396 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 12:56:40.399 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 12:57:13.938 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 12:57:13.938 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 12:57:13.939 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 12:57:13.940 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 12:57:13.940 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 12:57:13.942 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:14:43.410 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:14:43.410 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:14:43.411 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:14:43.411 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:14:43.412 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:14:43.414 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:15:57.919 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 13:16:14.958 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:16:14.969 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:16:14.985 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:16:14.989 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:16:14.991 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:16:14.999 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:19:30.474 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 13:22:22.545 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:22:22.556 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:22:22.572 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:22:22.576 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? OFFSET ? 
+2020-05-09 13:22:22.577 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer), 4(Integer)
+2020-05-09 13:22:22.586 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 3
+2020-05-09 13:22:34.314 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:22:34.315 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:22:34.316 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:22:34.317 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:22:34.318 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:22:34.322 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:25:40.985 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:25:40.985 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:25:40.986 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:25:40.987 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:25:40.987 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:25:40.991 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:34:47.097 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:34:47.097 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:34:47.098 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:34:47.099 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:34:47.099 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:34:47.101 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:35:54.112 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:35:54.112 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:35:54.113 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:35:54.114 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:35:54.114 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:35:54.117 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:36:01.964 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:36:01.965 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:36:01.966 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:36:01.967 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? OFFSET ? 
+2020-05-09 13:36:01.968 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer), 8(Integer)
+2020-05-09 13:36:01.970 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 0
+2020-05-09 13:36:03.853 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:36:03.854 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:36:03.854 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:36:03.855 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:36:03.855 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:36:03.857 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:36:08.811 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:36:08.812 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:36:08.813 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:36:08.814 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:36:08.815 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:36:08.818 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:36:16.876 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:36:16.876 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:36:16.878 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:36:16.879 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:36:16.879 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 4(Integer)
+2020-05-09 13:36:16.881 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 4
+2020-05-09 13:37:35.267 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:37:35.268 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:37:35.269 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:37:35.270 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:37:35.271 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:37:35.273 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:38:51.417 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:38:51.417 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:38:51.418 [http-nio-8080-exec-1] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:38:51.419 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:38:51.419 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:38:51.422 [http-nio-8080-exec-1] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:39:21.912 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:39:21.912 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:39:21.913 [http-nio-8080-exec-4] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:39:21.913 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:39:21.914 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:39:21.915 [http-nio-8080-exec-4] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:40:22.804 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:40:22.804 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:40:22.805 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:40:22.806 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:40:22.806 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:40:22.807 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:41:11.175 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:41:11.176 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:41:11.176 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:41:11.177 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:41:11.177 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:41:11.178 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:41:14.879 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:41:14.879 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:41:14.880 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:41:14.880 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:41:14.881 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:41:14.881 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:41:26.504 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:41:26.504 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:41:26.505 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:41:26.506 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:41:26.506 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:41:26.508 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:41:30.709 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:41:30.710 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:41:30.710 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:41:30.711 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:41:30.711 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:41:30.712 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:41:39.412 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:41:39.413 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:41:39.413 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:41:39.414 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:41:39.414 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:41:39.416 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:42:16.342 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:42:16.342 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:42:16.343 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:42:16.344 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:42:16.344 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:42:16.345 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:44:25.509 [http-nio-8080-exec-2] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - ==>  Preparing: SELECT count(0) FROM zts_areas 
+2020-05-09 13:44:25.510 [http-nio-8080-exec-2] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - ==> Parameters: 
+2020-05-09 13:44:25.511 [http-nio-8080-exec-2] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - <==      Total: 1
+2020-05-09 13:44:25.511 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - ==>  Preparing: SELECT id, ar_name, ar_state, ar_type, "ar_updateTime", "ar_creationTime", ar_position FROM zts_areas order by id asc 
+2020-05-09 13:44:25.511 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - ==> Parameters: 
+2020-05-09 13:44:25.514 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - <==      Total: 12
+2020-05-09 13:45:25.586 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:45:25.586 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:45:25.587 [http-nio-8080-exec-3] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:45:25.587 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:45:25.587 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:45:25.589 [http-nio-8080-exec-3] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:47:01.500 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:47:01.501 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:47:01.501 [http-nio-8080-exec-5] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:47:01.502 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:47:01.503 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:47:01.504 [http-nio-8080-exec-5] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:47:06.038 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:47:06.038 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:47:06.038 [http-nio-8080-exec-6] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:47:06.039 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:47:06.039 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:47:06.040 [http-nio-8080-exec-6] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:47:12.042 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:47:12.043 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:47:12.043 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:47:12.044 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:47:12.044 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:47:12.045 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:47:29.291 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:47:29.292 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:47:29.292 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:47:29.293 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:47:29.293 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:47:29.294 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:47:56.135 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:47:56.136 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:47:56.136 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:47:56.137 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:47:56.137 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:47:56.138 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 13:47:59.241 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 13:47:59.241 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 13:47:59.241 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 13:47:59.241 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 13:47:59.241 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 13:47:59.242 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 14:44:36.756 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 14:44:36.757 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 14:44:36.762 [http-nio-8080-exec-2] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 14:44:36.764 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 14:44:36.764 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 14:44:36.770 [http-nio-8080-exec-2] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 15:30:20.135 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 15:31:35.551 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 15:34:03.217 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 15:38:17.321 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 15:41:14.738 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 15:41:25.618 [http-nio-8080-exec-2] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - ==>  Preparing: SELECT count(0) FROM zts_areas 
+2020-05-09 15:41:25.628 [http-nio-8080-exec-2] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - ==> Parameters: 
+2020-05-09 15:41:25.640 [http-nio-8080-exec-2] DEBUG c.z.z.areas.dao.AreasDao.queryAreas_COUNT - <==      Total: 1
+2020-05-09 15:41:25.641 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - ==>  Preparing: SELECT id, ar_name, ar_state, ar_type, "ar_updateTime", "ar_creationTime", ar_position FROM zts_areas order by id asc 
+2020-05-09 15:41:25.641 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - ==> Parameters: 
+2020-05-09 15:41:25.647 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.areas.dao.AreasDao.queryAreas - <==      Total: 12
+2020-05-09 15:41:51.905 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE '2020-05-09 00:00:00' <= time AND time < '2020-5-9 23:00:00' ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 15:41:51.905 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 
+2020-05-09 15:41:51.909 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 12
+2020-05-09 15:46:26.220 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 15:46:53.916 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE '2020-05-09 00:00:00' <= time AND time < '2020-5-9 23:00:00' ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 15:46:54.177 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 
+2020-05-09 15:46:54.384 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 12
+2020-05-09 15:54:13.871 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE '2020-05-09 00:00:00' <= time AND time < '2020-5-9 23:00:00' ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 15:54:13.872 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 
+2020-05-09 15:54:13.876 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 18
+2020-05-09 16:05:56.481 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 16:05:56.481 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 16:05:56.484 [http-nio-8080-exec-7] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 16:05:56.488 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 16:05:56.490 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 16:05:56.500 [http-nio-8080-exec-7] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 16:07:24.725 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 16:07:24.726 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 16:07:24.727 [http-nio-8080-exec-8] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 16:07:24.728 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 16:07:24.728 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 16:07:24.731 [http-nio-8080-exec-8] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 16:07:46.708 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 16:07:46.708 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 16:07:46.709 [http-nio-8080-exec-10] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 16:07:46.709 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 16:07:46.710 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 16:07:46.714 [http-nio-8080-exec-10] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 16:09:09.848 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==>  Preparing: SELECT count(0) FROM zts_camera WHERE 1 = 1 
+2020-05-09 16:09:09.849 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - ==> Parameters: 
+2020-05-09 16:09:09.850 [http-nio-8080-exec-9] DEBUG c.z.z.equipment.dao.EquiDao.queryEqui_COUNT - <==      Total: 1
+2020-05-09 16:09:09.851 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==>  Preparing: SELECT id, eq_number, eq_name, "eq_creationTime", "eq_updateTime", eq_state, eq_type, eq_h_angle, eq_z_angle, eq_view_angle, geom FROM zts_camera /* LIMIT 5 OFFSET 0*/ WHERE 1=1 order by zts_camera.id asc LIMIT ? 
+2020-05-09 16:09:09.851 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - ==> Parameters: 10(Integer)
+2020-05-09 16:09:09.853 [http-nio-8080-exec-9] DEBUG c.zt.ztgeoservice.equipment.dao.EquiDao.queryEqui - <==      Total: 7
+2020-05-09 16:14:30.324 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:14:51.216 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:14:51.469 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: null, null
+2020-05-09 16:16:05.598 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:16:17.719 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE startTime=? <= time AND time < endTime=? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:16:17.732 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: null, null
+2020-05-09 16:18:59.489 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:19:06.985 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:19:06.996 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: null, null
+2020-05-09 16:19:07.010 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:20:11.483 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:20:19.208 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:20:19.220 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00(String), 2020-05-09 23:00:00(String)
+2020-05-09 16:20:49.871 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:20:57.186 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:20:57.197 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00(String), 2020-05-09 23:00:00(String)
+2020-05-09 16:25:06.836 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:25:06.837 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00(String), 2020-05-09 23:00:00(String)
+2020-05-09 16:35:09.171 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:35:19.666 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:35:19.676 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 16:35:17.118(Timestamp), 2020-05-09 16:35:17.118(Timestamp)
+2020-05-09 16:35:19.691 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:39:54.148 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:40:02.121 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:40:02.134 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 16:40:02.147 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:41:43.620 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:41:43.621 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 16:41:43.623 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:41:47.860 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:41:57.017 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:41:57.029 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 16:41:57.044 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:44:32.741 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:44:32.743 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 16:44:32.744 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:46:55.618 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:50:51.168 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:57:28.621 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 16:57:34.575 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:57:34.587 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 16:57:34.382(Timestamp), 2020-05-09 16:57:34.382(Timestamp)
+2020-05-09 16:57:34.602 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:59:36.941 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 16:59:36.942 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 16:57:52.776(Timestamp), 2020-05-09 16:57:52.776(Timestamp)
+2020-05-09 16:59:36.944 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 16:59:41.094 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:00:05.129 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:00:05.383 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 16:59:51.293(Timestamp), 2020-05-09 16:59:51.293(Timestamp)
+2020-05-09 17:00:05.563 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:03:42.443 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:04:44.439 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:04:44.450 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 17:03:54.32(Timestamp)
+2020-05-09 17:04:44.468 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 16
+2020-05-09 17:05:33.310 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:05:51.661 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:05:51.674 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 17:05:51.688 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:08:39.517 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:08:58.769 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:08:59.019 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 17:08:59.212 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:12:38.648 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:12:38.649 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 17:12:38.651 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:13:30.964 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:15:36.252 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:15:36.506 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 17:15:36.691 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:17:05.558 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:17:05.559 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 17:17:05.560 [http-nio-8080-exec-4] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:20:40.147 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:23:24.594 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:24:10.902 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:24:10.913 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 17:24:10.927 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:24:10.935 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:24:10.936 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), 2020-05-09 00:00:00.0(Timestamp)
+2020-05-09 17:24:10.939 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - <==      Total: 0
+2020-05-09 17:24:41.832 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:26:47.499 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:26:47.510 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: null, null
+2020-05-09 17:27:35.523 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:27:42.030 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:27:42.042 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: null, null
+2020-05-09 17:28:09.955 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:28:09.956 [http-nio-8080-exec-3] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: null, null
+2020-05-09 17:30:47.018 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:31:44.703 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:31:44.714 [http-nio-8080-exec-2] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: null, null
+2020-05-09 17:32:30.224 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:33:05.361 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:33:05.372 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00.0(Timestamp), null
+2020-05-09 17:36:18.459 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:36:50.235 [main] DEBUG com.zt.ztgeoservice.ZtgeoserviceApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-09 17:36:59.696 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==>  Preparing: SELECT count(*) as mycount,myhour FROM ( SELECT time,date_part('hour', time) as myhour FROM zts_parkingrecord WHERE ? <= time AND time < ? ) as hour_table GROUP BY myhour ORDER BY myhour ASC 
+2020-05-09 17:36:59.707 [http-nio-8080-exec-1] DEBUG com.zt.ztgeoservice.count.dao.CountDao.countCar - ==> Parameters: 2020-05-09 00:00:00(String), 2020-05-09 23:00:00(String)

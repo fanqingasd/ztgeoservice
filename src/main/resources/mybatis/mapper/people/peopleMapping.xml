@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zt.ztgeoservice.people.dao.PeopleDao">
+    <resultMap id="BaseResultMap" type="com.zt.ztgeoservice.people.entity.People">
+        <id column="id" property="id"></id>
+        <result column="ar_name" property="arName"></result>
+        <result column="ar_state" property="arState"></result>
+        <result column="ar_type" property="arType"></result>
+        <result column="ar_creationTime" property="arCreationTime"></result>
+        <result column="ar_updateTime" property="arUpdateTime"></result>
+        <result column="ar_position" property="arPosition"></result>
+    </resultMap>
+    <sql id="selectFields">
+     id,
+     ar_name,
+	 ar_state,
+	 ar_type,
+    "ar_updateTime",
+	"ar_creationTime",
+	 ar_position
+    </sql>
+    <select id="queryAreas" resultMap="BaseResultMap">
+       SELECT
+        <include refid="selectFields"/>
+        FROM
+       zts_areas order by id asc
+    </select>
+</mapper>

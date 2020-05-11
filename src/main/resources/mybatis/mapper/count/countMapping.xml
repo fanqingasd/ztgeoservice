@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zt.ztgeoservice.count.dao.CountDao">
+
+    <select id="countCamera" resultType="long">
+        SELECT
+        COUNT (0)
+        FROM
+        zts_camera
+    </select>
+
+    <select id="countAlarm" resultType="long">
+        SELECT
+        COUNT (0)
+        FROM
+        zts_alarm
+    </select>
+
+    <select id="countPeople" resultType="long">
+       SELECT
+       COUNT (0)
+        FROM
+       zts_people
+    </select>
+    <select id="countHouses" resultType="long">
+        SELECT
+        COUNT (0)
+        FROM
+        zts_houses
+    </select>
+    <select id="countParking" resultType="long">
+        SELECT
+        COUNT (0)
+        FROM
+        zts_parking
+    </select>
+    <select id="countParkingrecord" resultType="long">
+        SELECT
+        COUNT (0)
+        FROM
+        zts_parkingrecord
+    </select>
+    <select id="countPeoplerecord" resultType="long">
+        SELECT
+        COUNT (0)
+        FROM
+        zts_peoplerecord
+    </select>
+
+    <select id="countCar" resultType="com.zt.ztgeoservice.count.entity.Count">
+        SELECT count(*) as mycount,myhour FROM
+        (
+        SELECT
+        time,date_part('hour',  time) as myhour
+        FROM
+        zts_parkingrecord
+        WHERE
+        #{startTime,jdbcType=VARCHAR} &lt;= time
+        AND
+        time &lt; #{endTime,jdbcType=VARCHAR}
+        ) as hour_table
+        GROUP BY  myhour
+        ORDER BY myhour ASC
+    </select>
+
+
+</mapper>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zt.ztgeoservice.equipment.dao.EquiDao">
+   <resultMap id="BaseResultMap" type="com.zt.ztgeoservice.equipment.entity.Equi">
+        <id column="id" property="id"></id>
+        <result column="eq_number" property="eqNumber"></result>
+        <result column="eq_name" property="eqName"></result>
+        <result column="eq_creationTime" property="eqCreationTime"></result>
+        <result column="eq_updateTime" property="eqUpdateTime"></result>
+        <result column="eq_state" property="eqState"></result>
+        <result column="eq_type" property="eqType"></result>
+        <result column="eq_h_angle" property="eqHAngle"></result>
+        <result column="eq_z_angle" property="eqZAngle"></result>
+        <result column="eq_view_angle" property="eqViewAngle"></result>
+       <result column="geom" property="geom"></result>
+    </resultMap>
+    <sql id="table">zts_camera</sql>
+     <sql id="selectFields">
+                            id,
+                            eq_number,
+                            eq_name,
+                            "eq_creationTime",
+                            "eq_updateTime",
+                            eq_state,
+                            eq_type,
+                            eq_h_angle,
+                            eq_z_angle,
+                            eq_view_angle,
+                            geom
+    </sql>
+
+    <select id="queryEqui" resultType="Equi">
+        SELECT
+        <include refid="selectFields"/>
+        FROM
+        zts_camera /* LIMIT 5 OFFSET 0*/
+        WHERE 1=1
+        order by zts_camera.id asc
+    </select>
+</mapper>
