@@ -1,15 +1,20 @@
 package com.zt.ztgeoservice.alarm.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 import java.util.Date;
 
 public class Alarm {
     private Integer id;
+    @JSONField(format = "yyyy-MM-dd")
     private Date alTime;
     private String  alPlace;
     private String  alContent;
     private String  alType;
     private String  alStatus;
     private String  alDealresult;
+    private String alTitle;
+    private Integer alLevel;
 
     public Integer getId() {
         return id;
@@ -66,4 +71,21 @@ public class Alarm {
     public void setAlDealresult(String alDealresult) {
         this.alDealresult = alDealresult;
     }
+
+    public String getAlTitle() {
+        return alTitle;
+    }
+
+    public void setAlTitle(String alTitle) {
+        this.alTitle = alTitle;
+    }
+
+    public Integer getAlLevel() {
+        return alLevel;
+    }
+
+    public void setAlLevel(Integer alLevel) {
+        this.alLevel = alLevel;
+    }
+
 }

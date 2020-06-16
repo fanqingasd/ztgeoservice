@@ -9,4 +9,5 @@ import java.util.List;
 @Mapper
 public interface AlarmDao {
    public List<Alarm>queryAlarm();
+   public Alarm getalarm();
 }

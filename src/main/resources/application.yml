@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml        # mybatis配置文件所在路径
   #type-aliases-package: com.zt.ztgeoservice.equipment.entity    # 所有Entity别名类所在包
@@ -24,15 +24,15 @@ spring:
     encoding: UTF-8
     content-type: text/html
     mode: HTML5
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/ztgeoservice
-    username: postgres
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ztgeoservice?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
     password: root
 beetl:
   suffix: html
   #bybatis分页插件配置
   pagehelper:
-    helper-dialect: postgreSQL  #数据库
+    helper-dialect: mysql  #数据库
     reasonable: true
     support-methods-arguments: true
     params: count=countSql
@@ -53,29 +53,11 @@ beetl:
                  # 连接超时时间（毫秒）
                   timeout: 5000
 REDIS_KEY : student
+myconfig:
+#  rtsp: rtsp://%s:%s@%s:%s/Streaming/Channels/%s01
+  rtsp: //admin:abcd1234@192.168.10.65:554/cam/realmonitor?channel=1&subtype=0
+  replay-rtsp: rtsp://%s:%s@%s:%s/Streaming/tracks/%s01?starttime=%s&endtime=%s
+  java:
+    awt:
+      headless: false
 
-#spring:
-#      datasource:
-#        driver-class-name: org.postgresql.Driver
-#        url: jdbc:postgresql://192.168.100:5432/ztgis
-#        username: postgres
-#        password: ztkj8888
-#beetl:
-#  suffix: html
-#  #bybatis分页插件配置
-#  pagehelper:
-#    helper-dialect: postgreSQL  #数据库
-#    reasonable: true
-#    support-methods-arguments: true
-#    params: count=countSql
-
-
-
-#    spring:
-#      jpa:
-#        hibernate:
-#          ddl-auto: update
-#        properties:
-#          hibernate:
-#            temp:
-#              use_jdbc_metadata_defaults: false

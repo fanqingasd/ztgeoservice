@@ -1,24 +1,44 @@
 package com.zt.ztgeoservice.equipment.entity;
 
-import com.alibaba.fastjson.annotation.JSONField;
-import com.alibaba.fastjson.serializer.ValueFilter;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
-import java.io.Serializable;
-import java.util.Date;
 
-public class Equi implements Serializable {
-private Integer id;
-private String eqName;
-    @JSONField(format = "yyyy-MM-dd")
-    private Date eqCreationTime;
-    @JSONField(format = "yyyy-MM-dd")
-    private Date eqUpdateTime;
-    private String eqState;
-    private String eqType;
-    private String eqHAngle;
-    private String eqZAngle;
-    private String eqViewAngle;
-    private  String geom;
+/**
+ * 用户对象 sys_user
+ *
+ * @author
+ */
+public class Equi
+{
+    private static final long serialVersionUID = 1L;
+    private Integer id;
+    private Integer oid;
+    private Integer groupid;
+    private String [] groupids;
+    private Integer [] groupidArray;
+    private String ipaddress;
+    private String username;
+    private String password;
+    private String url;
+    private String agreement;
+    private Integer  type;
+    private Integer pixel;
+    private String model;
+    private String factory;
+    private  Integer loactionAilas;
+    private Double  height;
+    private  Double pitch;
+    private Double yaw;
+    private Double roll;
+    private Double viewAngel;
+    private  String loacttion;
+    private Integer isShow;
+    private Integer Port;
+    private String groupname;
+    private String name;
+
+
 
     public Integer getId() {
         return id;
@@ -28,84 +48,196 @@ private String eqName;
         this.id = id;
     }
 
-    public String getEqName() {
-        return eqName;
+    public Integer getOid() {
+        return oid;
     }
 
-    public void setEqName(String eqName) {
-        this.eqName = eqName;
+    public void setOid(Integer oid) {
+        this.oid = oid;
     }
 
-    public Date getEqCreationTime() {
-        return eqCreationTime;
+    public Integer getGroupid() {
+        return groupid;
     }
 
-    public void setEqCreationTime(Date eqCreationTime) {
-        this.eqCreationTime = eqCreationTime;
+    public void setGroupid(Integer groupid) {
+        this.groupid = groupid;
     }
 
-    public Date getEqUpdateTime() {
-        return eqUpdateTime;
+    public String getIpaddress() {
+        return ipaddress;
     }
 
-    public void setEqUpdateTime(Date eqUpdateTime) {
-        this.eqUpdateTime = eqUpdateTime;
+    public void setIpaddress(String ipaddress) {
+        this.ipaddress = ipaddress;
     }
 
-    public String getEqState() {
-        return eqState;
+    public String getUsername() {
+        return username;
     }
 
-    public void setEqState(String eqState) {
-        this.eqState = eqState;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getEqType() {
-        return eqType;
+    public String getPassword() {
+        return password;
     }
 
-    public void setEqType(String eqType) {
-        this.eqType = eqType;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public String getEqHAngle() {
-        return eqHAngle;
+
+    public String getUrl() {
+        return url;
     }
 
-    public void setEqHAngle(String eqHAngle) {
-        this.eqHAngle = eqHAngle;
+    public void setUrl(String url) {
+        this.url = url;
     }
 
-    public String getEqZAngle() {
-        return eqZAngle;
+    public String getAgreement() {
+        return agreement;
     }
 
-    public void setEqZAngle(String eqZAngle) {
-        this.eqZAngle = eqZAngle;
+    public void setAgreement(String agreement) {
+        this.agreement = agreement;
     }
 
-    public String getEqViewAngle() {
-        return eqViewAngle;
+    public Integer getType() {
+        return type;
     }
 
-    public void setEqViewAngle(String eqViewAngle) {
-        this.eqViewAngle = eqViewAngle;
+    public void setType(Integer type) {
+        this.type = type;
     }
 
-    public String getGeom() {
-        return geom;
+    public Integer getPixel() {
+        return pixel;
     }
 
-    public void setGeom(String geom) {
-        this.geom = geom;
+    public void setPixel(Integer pixel) {
+        this.pixel = pixel;
     }
- /*   private static ValueFilter filter = new ValueFilter() {
-        @Override
-        public Object process(Object obj, String s, Object v) {
-            if (v == null)
-                return "";
-            return v;
-        }
-    };*/
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getFactory() {
+        return factory;
+    }
+
+    public void setFactory(String factory) {
+        this.factory = factory;
+    }
+
+    public Integer getLoactionAilas() {
+        return loactionAilas;
+    }
+
+    public void setLoactionAilas(Integer loactionAilas) {
+        this.loactionAilas = loactionAilas;
+    }
+
+    public Double getHeight() {
+        return height;
+    }
+
+    public void setHeight(Double height) {
+        this.height = height;
+    }
+
+    public Double getPitch() {
+        return pitch;
+    }
+
+    public void setPitch(Double pitch) {
+        this.pitch = pitch;
+    }
+
+    public Double getYaw() {
+        return yaw;
+    }
+
+    public void setYaw(Double yaw) {
+        this.yaw = yaw;
+    }
+
+    public Double getRoll() {
+        return roll;
+    }
+
+    public void setRoll(Double roll) {
+        this.roll = roll;
+    }
+
+    public Double getViewAngel() {
+        return viewAngel;
+    }
+
+    public void setViewAngel(Double viewAngel) {
+        this.viewAngel = viewAngel;
+    }
+
+    public String getLoacttion() {
+        return loacttion;
+    }
+
+    public void setLoacttion(String loacttion) {
+        this.loacttion = loacttion;
+    }
+
+    public Integer getIsShow() {
+        return isShow;
+    }
+
+    public void setIsShow(Integer isShow) {
+        this.isShow = isShow;
+    }
+
+    public Integer getPort() {
+        return Port;
+    }
+
+    public void setPort(Integer Port) {
+        this.Port = Port;
+    }
+
+    public String getGroupname() {
+        return groupname;
+    }
+
+    public void setGroupname(String groupname) {
+        this.groupname = groupname;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String[] getGroupids() {
+        return groupids;
+    }
+
+    public void setGroupids(String[] groupids) {
+        this.groupids = groupids;
+    }
+
+    public Integer[] getGroupidArray() {
+        return groupidArray;
+    }
+
+    public void setGroupidArray(Integer[] groupidArray) {
+        this.groupidArray = groupidArray;
+    }
 }
-

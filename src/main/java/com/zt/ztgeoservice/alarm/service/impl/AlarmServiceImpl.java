@@ -23,6 +23,11 @@ public class AlarmServiceImpl implements AlarmService {
         return PageUtils.getPageResult(pageRequest, getPageInfo(pageRequest));
     }
 
+    @Override
+    public Alarm getalarm(Alarm alarm) {
+        return alarmDao.getalarm();
+    }
+
 
     private PageInfo<Alarm> getPageInfo(PageRequest pageRequest) {
         int pageNum = pageRequest.getPageNum();

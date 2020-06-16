@@ -24,9 +24,9 @@ public class LoginController {
     public String returnIndex(){
         return "Index";
     }
-    @GetMapping("/login")
+    //@PostMapping("/login")
     //@ResponseBody
-    //@RequestMapping(value="/login")
+    @RequestMapping(value="/login")
     public String login(HttpServletRequest req, HttpServletResponse res, User user, Model model){
         try{
             User u=userService.userlogin(req,res,user);
@@ -57,6 +57,20 @@ public class LoginController {
             map.put("success","根据token获取用户信息失败");
             return map;
         }
+    }
+
+
+    @RequestMapping(value="/img")
+    public String img(){
+
+            return "img";
+
+    }
+    @RequestMapping(value="/send")
+    public String send(){
+
+        return "send";
+
     }
 }
 
